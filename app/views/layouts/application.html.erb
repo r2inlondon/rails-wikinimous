@@ -9,8 +9,20 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   </head>
-
+  
   <body>
+  <header>
+    <div class="my-navbar">
+      <div class="home">
+        <%= link_to 'Wikinimous', articles_path %>
+      </div>
+      <div class="new-a">
+        <%= link_to 'New Article', new_article_path %>    
+      </div>
+    </div>
+  </header>
+    
+
     <%= yield %>
   </body>
 </html>

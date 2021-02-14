@@ -1,0 +1,22 @@
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  padding: 0px 15px;  
+  background-color: #f8f8f8;
+  border: 1px solid #b1b1b1;
+
+  a {
+    text-decoration: none;    
+    color: #77777f;
+  }
+
+  .new-a {
+    font-size: small;
+  }
+
+  .home {
+    font-size: large;
+  }
+}
