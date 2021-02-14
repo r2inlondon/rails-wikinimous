@@ -10,6 +10,11 @@
   a {
     text-decoration: none;    
     color: #77777f;
+    height: 100%;
+  }
+
+  a:hover {
+    opacity: 0.7;
   }
 
   .new-a {
@@ -18,5 +23,6 @@
 
   .home {
     font-size: large;
+    
   }
 }
