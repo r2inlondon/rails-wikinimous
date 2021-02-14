@@ -1,7 +1,18 @@
 
-<ul>
-  <% @articles.each do |article|%>
-    <li><%= link_to article.title, article_path(article) %></li>    
-  <% end  %>
-</ul>
+<div class="container">
+
+  <div class="the-box">
+    
+      <ul>
+      <% @articles.each do |article|%>
+      <div id="the-articles">
+        <li><%= link_to article.title, article_path(article) %></li>        
+        <p><%= article.content %></p>
+      </div>
+    <% end  %>
+    
+  </ul>
+  </div>
+
+</div>
 
