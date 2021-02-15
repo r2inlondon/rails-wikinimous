@@ -6,8 +6,10 @@
       <ul>
       <% @articles.each do |article|%>
       <div id="the-articles">
-        <li><%= link_to article.title, article_path(article) %></li>        
-        <p><%= article.content %></p>
+        
+          <li><%= link_to article.title, article_path(article) %></li>        
+          <p><%= article.content %></p>
+        
       </div>
     <% end  %>
     

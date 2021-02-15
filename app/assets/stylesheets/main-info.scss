@@ -22,3 +22,16 @@
       font-weight:300;
     }
   }
+
+  .edit-del {
+    display: flex;
+    align-items: center;
+
+    a {
+      padding: 0 4px;      
+    }
+
+    i {
+      font-size: 15px;
+    }
+  }
